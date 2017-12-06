@@ -1,0 +1,8 @@
+.box{
+    overflow: auto;
+    resize:none;
+    width: 550px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+}

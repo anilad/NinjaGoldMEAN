@@ -1,0 +1,16 @@
+<div class="container-fluid">
+  <h1>Making Ninja Gold with Angular!</h1>
+  <div class="row">
+    <div class="col-md-2">
+      <br>
+      <h3>Gold Count: </h3><h3 [ngStyle]="{'color': color}"> {{goldCount}}</h3>
+      <br>
+    </div>
+  </div>
+  <div class="row">
+    <app-component1 (myEvent)="dataFromChild($event)"></app-component1>
+  </div>
+  <div class="row">
+    <app-component2></app-component2>
+  </div>
+</div>
